@@ -1,0 +1,96 @@
+*{
+    font-family: "Poppins"
+}
+header{
+    color: white;
+    height: 240px;
+    background-image: url("images/bg-desktop-light.jpg");
+    padding-top: 60px;
+}
+header h1{
+    font-size: 40px;
+}
+#head{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#addToDo {
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    height: 60px;
+    border-radius:3px;
+    display: flex;
+    align-items: center;
+}
+#mainBox{
+    width: 49%;
+    background-color: white;
+    margin: auto;
+    margin-top: -40px;
+    border-radius: 3px;
+    box-shadow : 0px 0px 10px 5px  rgba(0,0, 0, 0.1);
+    min-height: max-content;
+    padding:5px;
+    position: relative;
+}
+#navThingies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: hsl(235, 19%, 35%);
+}
+#buttons button{
+    font-weight: 500;
+}
+input{
+    border: none;
+}
+ul li{
+    list-style: none;
+    display: block;
+    width: 80%;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-evenly;
+}
+button:hover{
+    color: hsl(220, 98%, 61%);
+    cursor: pointer;
+}
+input:hover{
+    cursor: pointer;
+}
+#my-span{
+    font-size: 12px;
+}
+
+[type="checkbox"]{
+   height: 20px;
+   width: 20px;
+   margin: 0 20px;
+}
+
+.nothing{
+    border:3px solid red;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+.displayNone{
+    display:none;
+}
+.displayInlineBlock{
+    display:inline-block;
+}
